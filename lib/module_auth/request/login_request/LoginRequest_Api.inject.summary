@@ -1,0 +1,8 @@
+{
+  "asset": "asset:c4d/lib/module_auth/request/login_request/LoginRequest_Api.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": []
+  }
+}

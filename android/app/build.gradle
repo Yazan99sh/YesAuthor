@@ -50,7 +50,8 @@ android {
     defaultConfig {
         // TODO: Specify your Application ID.
         applicationId "de.yes_soft.c4d"
-        minSdkVersion 23
+        multiDexEnabled true
+        minSdkVersion 19
         targetSdkVersion 29
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
@@ -66,7 +67,8 @@ android {
     }
     buildTypes {
         release {
-            signingConfig signingConfigs.release
+//            signingConfig signingConfigs.release
+            signingConfig signingConfigs.debug
         }
     }
 }

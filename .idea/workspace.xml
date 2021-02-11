@@ -4,57 +4,7 @@
     <list default="true" id="95c73b41-7212-43c0-8abc-0a2313d23a64" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/di/components/app.component.inject.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/di/components/app.component.inject.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.inject.summary" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.inject.summary" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_auth/authoriazation_module.inject.summary" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/authoriazation_module.inject.summary" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_auth/repository/auth/auth_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/repository/auth/auth_repository.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_auth/service/auth_service/auth_service.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/service/auth_service/auth_service.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_auth/service/auth_service/auth_service.inject.summary" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/service/auth_service/auth_service.inject.summary" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_auth/ui/Screen/Login.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/ui/Screen/Login.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_auth/ui/Screen/Register.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/ui/Screen/Register.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_auth/ui/Screen/WelcomePage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/ui/Screen/WelcomePage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/Google.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/Google.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/Google.inject.summary" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/Google.inject.summary" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/LRFrame.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/LRFrame.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/LoadingCircular.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/LoadingCircular.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/LoadingCircular.inject.summary" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/LoadingCircular.inject.summary" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/LoginAppBar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/LoginAppBar.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/LoginAppBar.inject.summary" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/LoginAppBar.inject.summary" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/LogoImage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/LogoImage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/LogoImage.inject.summary" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/LogoImage.inject.summary" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/ProgressIndecator.inject.summary" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/ProgressIndecator.inject.summary" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/ResetDialogPassword.inject.summary" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/ResetDialogPassword.inject.summary" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/StackedBottun.inject.summary" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/StackedBottun.inject.summary" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/TermsAndPrivacy.inject.summary" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/TermsAndPrivacy.inject.summary" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/field.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/field.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/field.inject.summary" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/ui/Widgets/field.inject.summary" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_network/http_client/http_client.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_network/http_client/http_client.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_profile/UI/screens/LogedTest.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_profile/UI/screens/LogedTest.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_profile/UI/screens/LogedTest.inject.summary" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_profile/UI/screens/LogedTest.inject.summary" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_profile/UI/widgets/Edit.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_profile/UI/widgets/Edit.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_profile/UI/widgets/Edit.inject.summary" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_profile/UI/widgets/Edit.inject.summary" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_profile/service/profile/profile.service.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_profile/service/profile/profile.service.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_profile/service/profile/profile.service.inject.summary" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_profile/service/profile/profile.service.inject.summary" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_splash/UI/Loading.inject.summary" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_splash/UI/Loading.inject.summary" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module_splash/UI/SplashScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_splash/UI/SplashScreen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +26,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/chat_testing" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -103,33 +53,49 @@
       <option name="presentableId" value="Default" />
       <updated>1612721034699</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added permission">
+      <created>1613053362559</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613053362559</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added permission" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added permission" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1613047972619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1613047972619" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1613041762706">
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1613053361490">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1613041762706" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1613052779854">
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1613053361490" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1613055536787">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1613052779854" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1613052779853">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1613055536787" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1613053495063">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1613052779853" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1613052779853">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1613053495063" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1613053495063">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1613052779853" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1613052779853">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1613053495063" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1613053495062">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1613052779853" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1613053495062" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1613053495063">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1613053495063" />
     <state x="362" y="157" key="new project wizard" timestamp="1612721281264">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
