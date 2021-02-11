@@ -116,6 +116,8 @@ class _LoggedState extends State<Logged> {
                       child: Text('Edit'),
                       onPressed: (){
                         editDialogUserName(context,widget.profileService);
+                        setState(() {
+                        });
                       },
                       color: Colors.black,
                       textColor: ColorPicker.primaryTextColor,

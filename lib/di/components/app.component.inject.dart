@@ -1,8 +1,8 @@
-import 'package:c4d/module_profile/profile_module.dart' as _i51;
+import 'package:c4d/module_profile/profile_module.dart';
 
 import 'app.component.dart' as _i1;
 import '../../module_localization/service/localization_service/localization_service.dart'
-    as _i2;
+as _i2;
 import '../../utils/logger/logger.dart' as _i3;
 //import '../../module_orders/orders_module.dart' as _i4;
 import 'dart:async' as _i5;
@@ -10,7 +10,7 @@ import '../../main.dart' as _i6;
 import '../../module_theme/service/theme_service/theme_service.dart' as _i7;
 import '../../module_theme/pressistance/theme_preferences_helper.dart' as _i8;
 import '../../module_localization/presistance/localization_preferences_helper/localization_preferences_helper.dart'
-    as _i9;
+as _i9;
 // import '../../module_orders/ui/screens/new_order/new_order_screen.dart' as _i10;
 // import '../../module_orders/state_manager/new_order/new_order.state_manager.dart'
 //     as _i11;
@@ -24,7 +24,7 @@ import '../../module_auth/presistance/auth_prefs_helper.dart' as _i17;
 import '../../module_auth/manager/auth_manager/auth_manager.dart' as _i18;
 import '../../module_auth/repository/auth/auth_repository.dart' as _i19;
 import '../../module_notifications/service/fire_notification_service/fire_notification_service.dart'
-    as _i20;
+as _i20;
 // import '../../module_orders/ui/screens/order_status/order_status_screen.dart'
 //     as _i21;
 // import '../../module_orders/state_manager/order_status/order_status.state_manager.dart'
@@ -43,10 +43,10 @@ import '../../module_chat/service/chat/char_service.dart' as _i30;
 import '../../module_chat/manager/chat/chat_manager.dart' as _i31;
 import '../../module_chat/repository/chat/chat_repository.dart' as _i32;
 import '../../module_upload/service/image_upload/image_upload_service.dart'
-    as _i33;
+as _i33;
 import '../../module_upload/manager/upload_manager/upload_manager.dart' as _i34;
 import '../../module_upload/repository/upload_repository/upload_repository.dart'
-    as _i35;
+as _i35;
 // import '../../module_init/init_account_module.dart' as _i36;
 // import '../../module_init/ui/screens/init_account_screen/init_account_screen.dart'
 //     as _i37;
@@ -61,13 +61,13 @@ import '../../module_upload/repository/upload_repository/upload_repository.dart'
 import '../../module_profile/service/profile/profile.service.dart' as _i42;
 import '../../module_profile/manager/profile/profile.manager.dart' as _i43;
 import '../../module_profile/repository/profile/profile.repository.dart'
-    as _i44;
+as _i44;
 import '../../module_settings/settings_module.dart' as _i45;
 import '../../module_settings/ui/settings_page/settings_page.dart' as _i46;
 import '../../module_auth/authoriazation_module.dart' as _i47;
 import '../../module_auth/ui/Widget/email_password_login/email_password_login.dart' as _i48;
 import '../../module_auth/state_manager/auth_state_manager/auth_state_manager.dart'
-    as _i49;
+as _i49;
 // import '../../module_auth/ui/screen/register_screen/register_screen.dart'
 //     as _i50;
 
@@ -85,7 +85,7 @@ class AppComponent$Injector implements _i1.AppComponent {
 
     return injector;
   }
- // _createOrdersModule(),
+  // _createOrdersModule(),
   //_createInitAccountModule(),
   _i6.MyApp _createMyApp() => _i6.MyApp(
       _createAppThemeDataService(),
@@ -93,9 +93,9 @@ class AppComponent$Injector implements _i1.AppComponent {
       _createChatModule(),
       _createSettingsModule(),
       _createAuthorizationModule(),
-    _createProfileModule()
+      _createProfileModule()
   );
-  _i51.ProfileModule _createProfileModule()=>_i51.ProfileModule(_createAuthService(),_createProfileService());
+  ProfileModule _createProfileModule() => ProfileModule(_createAuthService(),_createProfileService());
   _i7.AppThemeDataService _createAppThemeDataService() =>
       _i7.AppThemeDataService(_createThemePreferencesHelper());
   _i8.ThemePreferencesHelper _createThemePreferencesHelper() =>
@@ -126,10 +126,7 @@ class AppComponent$Injector implements _i1.AppComponent {
   _i16.AuthService _createAuthService() => _i16.AuthService(
       _createAuthPrefsHelper(),
       _createAuthManager(),
-      _createFireNotificationService(),
-      _createApiClient(),
-    _createProfileService()
-  );
+      _createFireNotificationService());
   _i17.AuthPrefsHelper _createAuthPrefsHelper() => _i17.AuthPrefsHelper();
   _i18.AuthManager _createAuthManager() =>
       _i18.AuthManager(_createAuthRepository());
@@ -182,7 +179,7 @@ class AppComponent$Injector implements _i1.AppComponent {
   // _i41.InitAccountRepository _createInitAccountRepository() =>
   //     _i41.InitAccountRepository(_createApiClient(), _createAuthService());
   _i42.ProfileService _createProfileService() =>
-      _i42.ProfileService(_createProfileManager(),_createAuthPrefsHelper());
+      _i42.ProfileService(_createProfileManager());
   _i43.ProfileManager _createProfileManager() =>
       _i43.ProfileManager(_createProfileRepository());
   _i44.ProfileRepository _createProfileRepository() =>
@@ -195,7 +192,7 @@ class AppComponent$Injector implements _i1.AppComponent {
       _createAppThemeDataService());
   // _createLoginScreen(), _createRegisterScreen()
   _i47.AuthorizationModule _createAuthorizationModule() =>
-    _i47.AuthorizationModule(_createAuthService());
+      _i47.AuthorizationModule(_createAuthService());
   // _i48.LoginScreen _createLoginScreen() =>
   //     _i48.LoginScreen(_createAuthStateManager());
   _i49.AuthStateManager _createAuthStateManager() =>

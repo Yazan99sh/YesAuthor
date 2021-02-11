@@ -21,14 +21,7 @@
           "dependencies": [
             {
               "lookupKey": {
-                "root": "asset:c4d/lib/module_auth/ui/screen/login_screen/login_screen.dart#LoginScreen",
-                "qualifier": null
-              },
-              "isProvider": false
-            },
-            {
-              "lookupKey": {
-                "root": "asset:c4d/lib/module_auth/ui/screen/register_screen/register_screen.dart#RegisterScreen",
+                "root": "asset:c4d/lib/module_auth/service/auth_service/auth_service.dart#AuthService",
                 "qualifier": null
               },
               "isProvider": false

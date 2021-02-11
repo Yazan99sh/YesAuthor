@@ -35,21 +35,7 @@
             },
             {
               "lookupKey": {
-                "root": "asset:c4d/lib/module_orders/orders_module.dart#OrdersModule",
-                "qualifier": null
-              },
-              "isProvider": false
-            },
-            {
-              "lookupKey": {
                 "root": "asset:c4d/lib/module_chat/chat_module.dart#ChatModule",
-                "qualifier": null
-              },
-              "isProvider": false
-            },
-            {
-              "lookupKey": {
-                "root": "asset:c4d/lib/module_init/init_account_module.dart#InitAccountModule",
                 "qualifier": null
               },
               "isProvider": false
@@ -64,6 +50,13 @@
             {
               "lookupKey": {
                 "root": "asset:c4d/lib/module_auth/authoriazation_module.dart#AuthorizationModule",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:c4d/lib/module_profile/profile_module.dart#ProfileModule",
                 "qualifier": null
               },
               "isProvider": false

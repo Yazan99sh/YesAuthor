@@ -16,7 +16,7 @@ class Google extends StatelessWidget {
         icon: Padding(
           padding:
               const EdgeInsets.only(right: 8.0),
-          child: Image.asset('images/google.png',width: 20,height: 20,)
+          child: Image.asset('assets/images/google.png',width: 20,height: 20,)
         ),
         color: Colors.grey[50],
         splashColor: Color.fromRGBO(255,189,8,1),

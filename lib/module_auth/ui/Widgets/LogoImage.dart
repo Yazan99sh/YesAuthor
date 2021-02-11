@@ -5,7 +5,7 @@ class LogoImage extends StatelessWidget {
     return Center(
       child: Padding(
         padding: const EdgeInsets.only(top:65),
-        child: Image.asset('images/logo2.png',width: 100,height: 100,),
+        child: Image.asset('assets/images/logo2.png',width: 100,height: 100,),
       ),
     );
   }

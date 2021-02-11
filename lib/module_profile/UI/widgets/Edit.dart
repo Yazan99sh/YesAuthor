@@ -22,7 +22,10 @@ void editDialogUserName(context,ProfileService profileService){
     actions: [
       FlatButton(child: Text('Confirm',style: TextStyle(
         color: Colors.white,
-      ),),onPressed: ()=>profileService.updateProfile(userName.text).then((_) =>Navigator.of(context).pop()),),
+      ),),onPressed: (){
+        profileService.updateProfile(userName.text);
+        Navigator.of(context).pop();
+      },),
       FlatButton(child: Text('Cancel',style: TextStyle(
         color: Colors.white,
       ),),onPressed: ()=>Navigator.of(context).pop(),),

@@ -6,7 +6,7 @@ PreferredSizeWidget loginAppBar(){
     iconTheme: IconThemeData(color: Colors.white),
     backgroundColor: Colors.grey[900].withOpacity(0),
     title: Image.asset(
-      'images/titleLogo.png',
+      'assets/images/titleLogo.png',
       scale: 3.5,
     ),
     centerTitle: true,

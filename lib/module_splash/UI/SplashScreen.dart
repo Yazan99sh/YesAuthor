@@ -19,14 +19,14 @@ class _SplashScreenState extends State<SplashScreen> {
       var token = await authPrefsHelper.getToken();
       if (token == null) {
         if (user == null) {
-          Navigator.pushNamed(context, AuthorizationRoutes.WelcomePage,);
+         await Navigator.pushNamed(context, AuthorizationRoutes.WelcomePage,);
         } else {
           //FirebaseAuth.instance.signOut();
           //Navigator.pushNamed(context, ProfileRoutes.Logged);
         }
       }
       else {
-        Navigator.pushNamed(context, ProfileRoutes.Logged);
+        await Navigator.pushNamed(context, ProfileRoutes.Logged);
       }
     }
     );
@@ -44,7 +44,7 @@ class _SplashScreenState extends State<SplashScreen> {
               Center(
                 child: Padding(
                   padding: const EdgeInsets.only(top:65),
-                  child: Image.asset('images/logo2.png',width: 100,height: 100,),
+                  child: Image.asset('assets/images/logo2.png',width: 100,height: 100,),
                 ),
               ),
               Padding(

@@ -14,7 +14,7 @@ class _WelcomePageState extends State<WelcomePage> {
         children: [
           //Background image welcome.png
           Image.asset(
-            'images/welcome.jpg',
+            'assets/images/welcome.jpg',
             fit: BoxFit.cover,
             height: double.maxFinite,
           ),
@@ -30,7 +30,7 @@ class _WelcomePageState extends State<WelcomePage> {
                 child: Padding(
                   padding: const EdgeInsets.only(top: 150.0),
                   child: Image.asset(
-                    'images/logo.png',
+                    'assets/images/logo.png',
                     scale: 2.8,
                   ),
                 ),

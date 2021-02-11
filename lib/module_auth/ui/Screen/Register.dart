@@ -141,7 +141,7 @@ class _RegisterState extends State<Register> {
             ),
           ],
         ),
-        loading?LoadingCircular():Container(),
+        loading?LoadingCircular('Registering...'):Container(),
       ],
     ));
   }

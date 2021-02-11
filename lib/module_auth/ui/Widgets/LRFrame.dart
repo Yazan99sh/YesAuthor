@@ -18,7 +18,7 @@ class LRFrame extends StatelessWidget {
         decoration: BoxDecoration(
             image: DecorationImage(
               fit: BoxFit.cover,
-              image: AssetImage('images/welcome.jpg'),
+              image: AssetImage('assets/images/welcome.jpg'),
             )),
         child: GestureDetector(
           onTap: () {

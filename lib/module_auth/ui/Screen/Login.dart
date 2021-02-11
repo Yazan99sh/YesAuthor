@@ -36,6 +36,7 @@ class _LoginState extends State<Login> {
   }
   @override
   Widget build(BuildContext context) {
+    final node = FocusScope.of(context);
     return LRFrame(Stack(children: [
       Column(
         children: [
@@ -78,7 +79,7 @@ class _LoginState extends State<Login> {
                                 return 'Please fill this field';
                               }
                               return null;
-                            },),
+                            },onEditingComplete: () => node.nextFocus(),),
                           ),
                           Padding(
                             padding: const EdgeInsets.only(
@@ -92,7 +93,7 @@ class _LoginState extends State<Login> {
                               }
                               else
                                 return null;
-                            },),
+                            },onFieldSubmitted:(_) => node.unfocus()),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(16.0),
@@ -139,7 +140,7 @@ class _LoginState extends State<Login> {
           ),
         ],
       ),
-      loading?LoadingCircular():Container(),
+      loading?LoadingCircular('Logging ....'):Container(),
     ],));
   }
 

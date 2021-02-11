@@ -6,10 +6,8 @@ import 'package:inject/inject.dart';
 @provide
 class ProfileService {
   final ProfileManager _manager;
-  final AuthPrefsHelper _authPrefsHelper;
   ProfileService(
     this._manager,
-      this._authPrefsHelper
   );
   Future<bool> createProfile(String userName,token) async {
     // _repository = ProfileRepository();
@@ -20,12 +18,13 @@ class ProfileService {
     return await _manager.createProfile(profileRequest,token);
   }
   Future<dynamic> getProfile() async {
-
+    AuthPrefsHelper _authPrefsHelper = AuthPrefsHelper();
     String token = await _authPrefsHelper.getToken();
     var data = await _manager.getProfile(token);
     return data;
   }
   Future<dynamic> updateProfile(userName) async {
+    AuthPrefsHelper _authPrefsHelper = AuthPrefsHelper();
     String token = await _authPrefsHelper.getToken();
     return await _manager.updateProfile(token,ProfileRequest(userName: userName));
   }

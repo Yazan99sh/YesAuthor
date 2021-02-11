@@ -19,21 +19,21 @@ class AuthService {
   final AuthPrefsHelper _prefsHelper;
   final AuthManager _authManager;
   final FireNotificationService _fireNotificationService;
-  final ApiClient _apiClient;
   final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
-  final ProfileService _profileService;
   final PublishSubject _authSubject = PublishSubject();
   Stream get onAuthorized => _authSubject.stream;
+  ApiClient _apiClient;
+  ProfileService _profileService;
   Future<bool> get isLoggedIn => _prefsHelper.isSignedIn();
   AuthService(
       this._prefsHelper,
       this._authManager,
       this._fireNotificationService,
-      this._apiClient,
-      this._profileService
       );
 
   Future <bool> registerUser(String username ,String email,String password ) async {
+    _apiClient = ApiClient(Logger());
+    _profileService = ProfileService(ProfileManager(ProfileRepository(_apiClient,AuthService(_prefsHelper, _authManager, _fireNotificationService))));
     String uId;
     try {
       uId = await _authManager.register(RegisterRequest(username: username , email: email , password: password));

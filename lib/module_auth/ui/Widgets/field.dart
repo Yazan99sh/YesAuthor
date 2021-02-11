@@ -3,7 +3,9 @@ class Field extends StatefulWidget {
   final controller;
   final String text;
   final FormFieldValidator<String> validator;
-  Field({Key key, this.controller, this.text ,this.validator})
+  final VoidCallback onEditingComplete;
+ final ValueChanged<String> onFieldSubmitted;
+  Field({Key key, this.controller, this.text ,this.validator,this.onEditingComplete,this.onFieldSubmitted})
       : assert(text != null),
         super(key: key);
 
@@ -45,6 +47,9 @@ class _FieldState extends State<Field> {
       validator:widget.validator,
       style: TextStyle(color: Colors.white),
       obscureText:widget.text=='Password'&& secure ?true :false ,
+      onEditingComplete:widget.onEditingComplete,
+      onFieldSubmitted:widget.onFieldSubmitted,
+      textInputAction:widget.onEditingComplete ==null ? TextInputAction.done:TextInputAction.next,
       decoration: InputDecoration(
         suffixIcon:widget.text=='Password'?IconButton(
           color: color,

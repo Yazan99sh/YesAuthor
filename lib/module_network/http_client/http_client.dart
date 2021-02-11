@@ -90,6 +90,13 @@ class ApiClient {
         receiveTimeout: 60000,
         connectTimeout: 60000,
       ));
+      _logger.info(tag, 'Headers: ' + jsonEncode(headers));
+      if (headers != null) {
+        if (headers['Authorization'] != null) {
+          _logger.info(tag, 'Adding Auth Header');
+          client.options.headers['Authorization'] = headers['Authorization'];
+        }
+      }
       var response = await client.put(
         url,
         queryParameters: queryParams,

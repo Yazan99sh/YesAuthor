@@ -10,7 +10,6 @@ import 'package:inject/inject.dart';
 @provide
 class AuthRepository {
   final ApiClient _apiClient;
-
   AuthRepository(this._apiClient);
 
   Future<String> createUser(RegisterRequest request) async {

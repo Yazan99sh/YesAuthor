@@ -1,9 +1,9 @@
-import 'package:c4d/module_auth/authorization_routes.dart';
 import 'package:c4d/module_chat/chat_module.dart';
 import 'package:c4d/module_localization/service/localization_service/localization_service.dart';
 import 'package:c4d/module_profile/profile_module.dart';
 import 'package:c4d/module_splash/UI/Loading.dart';
 import 'package:c4d/module_splash/UI/SplashScreen.dart';
+import 'package:c4d/module_theme/ColorPicker.dart';
 import 'package:c4d/module_theme/service/theme_service/theme_service.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:firebase_analytics/observer.dart';
@@ -81,7 +81,6 @@ class _MyAppState extends State<MyApp> {
     fullRoutesList.addAll(widget._settingsModule.getRoutes());
     fullRoutesList.addAll(widget._profileModule.getRoutes());
     // TODO: Plug your Module Here
-    print("wow");
     return FutureBuilder(
       initialData: ThemeData.light(),
       future: widget._themeDataService.getActiveTheme(),
@@ -91,7 +90,6 @@ class _MyAppState extends State<MyApp> {
             future: widget._localizationService.getLanguage(),
             builder:
                 (BuildContext context, AsyncSnapshot<String> langSnapshot) {
-                  print("dasdasda");
               return getConfiguratedApp(
                 fullRoutesList,
                 themeSnapshot.data,
@@ -120,7 +118,10 @@ class _MyAppState extends State<MyApp> {
         GlobalWidgetsLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate,
       ],
-      theme: theme,
+     // theme: theme,
+      theme:ThemeData(
+      primarySwatch:ColorPicker.primarySwitch,
+    ),
       supportedLocales: S.delegate.supportedLocales,
       title: 'C4D Client',
       routes: fullRoutesList,
@@ -129,8 +130,6 @@ class _MyAppState extends State<MyApp> {
       home: FutureBuilder(
         future: _initialization,
         builder: (context,snapshot){
-          print("dasdasda");
-          print(snapshot);
           if (snapshot.connectionState==ConnectionState.waiting){
             return Loading();
           }

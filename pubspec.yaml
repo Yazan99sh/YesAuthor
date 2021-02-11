@@ -3,7 +3,7 @@ description: A new Flutter application.
 
 publish_to: 'none'
 
-version: 1.0.7
+version: 1.0.0
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -145,6 +145,7 @@ flutter:
     - assets/images/titleLogo.png
     - assets/images/google.png
     - assets/images/logo2.png
+    - assets/images/icon.png
 
 flutter_intl:
   enabled: true
@@ -152,4 +153,4 @@ flutter_intl:
 flutter_icons:
   android: "launcher_icon"
   ios: true
-  image_path: "assets/images/logo.png"
+  image_path: "assets/images/icon.png"
