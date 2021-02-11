@@ -1,0 +1,7 @@
+git_url("git@github.com:yes-soft-de/flutter_keys.git")
+# TODO: Plug Cert Branch Here
+git_branch("c4d")
+storage_mode("git")
+# TODO: Plug App Here
+app_identifier(["de.yes-soft.c4d"])
+username(ENV['FASTLANE_USER'])
