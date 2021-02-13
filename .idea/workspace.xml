@@ -5,6 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/kotlin/de/yes_soft/c4d/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/kotlin/de/yes_soft/c4d2/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/profile/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,16 +30,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/chat_testing" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/android/app" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\syria\Desktop\flutter_boilerplate-master - Copy\android\app" />
       <recent name="C:\Users\syria\Desktop\flutter_boilerplate-master - Copy\assets\images" />
       <recent name="C:\Users\syria\Desktop\flutter_boilerplate-master - Copy\android\app\src\main\res" />
       <recent name="C:\Users\syria\Desktop\flutter_boilerplate-master - Copy\assets" />
       <recent name="C:\Users\syria\Desktop\flutter_boilerplate-master - Copy\lib" />
-      <recent name="C:\Users\syria\Desktop\flutter_boilerplate-master - Copy\lib\module_profile" />
     </key>
   </component>
   <component name="RunManager">
@@ -80,22 +84,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1613055536787" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1613053495063">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1613202034182">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1613053495063" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1613053495063">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1613202034182" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1613202034182">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1613053495063" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1613053495062">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1613202034182" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1613202034182">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1613053495062" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1613053495063">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1613202034182" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1613202034182">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1613053495063" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1613202034182" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1613055756269">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1613055756269" />
     <state x="362" y="157" key="new project wizard" timestamp="1612721281264">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

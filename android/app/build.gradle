@@ -49,7 +49,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your Application ID.
-        applicationId "de.yes_soft.c4d"
+        applicationId "de.yes_soft.c4d2"
         multiDexEnabled true
         minSdkVersion 19
         targetSdkVersion 29
