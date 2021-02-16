@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:dio/dio.dart';
 import 'package:inject/inject.dart';
 import 'package:c4d/utils/logger/logger.dart';

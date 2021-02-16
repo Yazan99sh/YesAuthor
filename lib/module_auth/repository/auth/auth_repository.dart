@@ -19,6 +19,8 @@ class AuthRepository {
         email:request.email,
         password:request.password,
       );
+      print("qqqqqqqqqqqqqqqqqqqqqqqq");
+      print(userCredential.user.uid);
       return userCredential.user.uid;
     } on FirebaseAuthException catch (e) {
       if (e.code == 'weak-password') {

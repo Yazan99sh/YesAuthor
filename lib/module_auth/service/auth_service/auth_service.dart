@@ -11,6 +11,7 @@ import 'package:c4d/module_profile/repository/profile/profile.repository.dart';
 import 'package:c4d/module_profile/service/profile/profile.service.dart';
 import 'package:c4d/utils/logger/logger.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:inject/inject.dart';
 import 'package:rxdart/subjects.dart';
 
@@ -39,15 +40,13 @@ class AuthService {
       uId = await _authManager.register(RegisterRequest(username: username , email: email , password: password));
       if (uId != null) {
         var headers = {'Content-Type': 'application/json'};
-        var body = {'userID': '$uId','password':'$password'};
+        var body = {'userID': '$uId','userName':'$username','email':'$email','password':'$password'};
         var result = await _apiClient.post(Urls.API_SIGN_UP,body,headers:headers);
         if (result['status_code']=='201' || result['status_code']=='200') {
           var token = await _authManager.loginApi(
               LoginRequestApi(username: uId, password: password));
           if (token.token != null) {
-            await _profileService.createProfile(username, token.token);
-            AuthPrefsHelper authPrefsHelper = AuthPrefsHelper();
-            await authPrefsHelper.setToken(token.token);
+            await _prefsHelper.setToken(token.token);
             return true;
           }
           return false;
@@ -85,7 +84,32 @@ class AuthService {
 
   Future <void> resetPassword(String email) async{
     try {
-      await FirebaseAuth.instance.sendPasswordResetEmail(email:email);
+       if (email.isNotEmpty && email.indexOf('@') >= 1 && email.indexOf('@') < email.length-1) {
+       // await FirebaseAuth.instance.sendPasswordResetEmail(email: email);
+       // var d = await FirebaseAuth.instance();
+         // Prompt the user to enter their email and password
+         String email = 'le@mail.com';
+         String password = '123456789!';
+         EmailAuthCredential credential = EmailAuthProvider.credential(email: email, password: password);
+         UserCredential userCredential = await FirebaseAuth.instance.signInAnonymously();
+        var user = await FirebaseAuth.instance.currentUser.reauthenticateWithCredential(credential);
+        print("qqqqqqqqqqqqqqqqqqqqqqqq");
+        print(user.user.uid);
+        await Fluttertoast.showToast(
+            msg: 'The link with reset password code was sent',
+            toastLength: Toast.LENGTH_SHORT,
+          gravity: ToastGravity.values[2],
+            timeInSecForIosWeb: 1,
+        );
+      }
+       else {
+         await Fluttertoast.showToast(
+           msg: 'Enter valid email',
+           toastLength: Toast.LENGTH_SHORT,
+           gravity: ToastGravity.values[2],
+           timeInSecForIosWeb: 1,
+         );
+       }
     } catch (e) {
       print(e);
     }

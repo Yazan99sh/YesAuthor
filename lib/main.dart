@@ -66,7 +66,6 @@ class _MyAppState extends State<MyApp> {
     widget._localizationService.localizationStream.listen((event) {
       setState(() {});
     });
-
     widget._themeDataService.darkModeStream.listen((event) {
       activeTheme = event;
       setState(() {});

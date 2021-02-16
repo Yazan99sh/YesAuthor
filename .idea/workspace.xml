@@ -2,18 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95c73b41-7212-43c0-8abc-0a2313d23a64" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/module_auth/ui/Screen/ResetPassword.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/kotlin/de/yes_soft/c4d/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/kotlin/de/yes_soft/c4d2/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/profile/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/titleLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/titleLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/module_auth/authoriazation_module.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/authoriazation_module.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/module_auth/authorization_routes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/authorization_routes.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/module_auth/repository/auth/auth_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/repository/auth/auth_repository.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/module_auth/service/auth_service/auth_service.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/service/auth_service/auth_service.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/module_auth/ui/Screen/Login.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/ui/Screen/Login.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/module_auth/ui/Screen/Register.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/ui/Screen/Register.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/module_auth/ui/Screen/WelcomePage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_auth/ui/Screen/WelcomePage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/module_network/http_client/http_client.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_network/http_client/http_client.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/module_profile/UI/screens/LogedTest.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_profile/UI/screens/LogedTest.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/module_profile/UI/widgets/Edit.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module_profile/UI/widgets/Edit.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,13 +47,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/android/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\syria\Desktop\flutter_boilerplate-master - Copy\android\app" />
       <recent name="C:\Users\syria\Desktop\flutter_boilerplate-master - Copy\assets\images" />
+      <recent name="C:\Users\syria\Desktop\flutter_boilerplate-master - Copy\android\app" />
       <recent name="C:\Users\syria\Desktop\flutter_boilerplate-master - Copy\android\app\src\main\res" />
       <recent name="C:\Users\syria\Desktop\flutter_boilerplate-master - Copy\assets" />
       <recent name="C:\Users\syria\Desktop\flutter_boilerplate-master - Copy\lib" />
@@ -64,46 +81,54 @@
       <option name="project" value="LOCAL" />
       <updated>1613053362559</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changed package name">
+      <created>1613207842591</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613207842591</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added permission" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added permission" />
+    <MESSAGE value="changed package name" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed package name" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1613047972619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1613047972619" />
-    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1613053361490">
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1613207841557">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1613053361490" />
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1613207841557" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1613055536787">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1613055536787" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1613202034182">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1613314514353">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1613202034182" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1613202034182">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1613314514353" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1613314514353">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1613202034182" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1613202034182">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1613314514353" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1613314514353">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1613202034182" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1613202034182">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1613314514353" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1613314514353">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1613202034182" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1613055756269">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1613314514353" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1613207848148">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1613055756269" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1613207848148" />
     <state x="362" y="157" key="new project wizard" timestamp="1612721281264">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

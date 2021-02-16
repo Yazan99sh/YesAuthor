@@ -50,7 +50,7 @@ class _WelcomePageState extends State<WelcomePage> {
                           padding:
                               const EdgeInsets.only(top: 20.0, bottom: 12.0),
                           child: Text(
-                            'Welcome to Chet Chat',
+                            'Welcome to Yes Author',
                             style: TextStyle(
                               color: Colors.white,
                               fontWeight: FontWeight.bold,

@@ -45,6 +45,7 @@ class _RegisterState extends State<Register> {
 
   @override
   Widget build(BuildContext context) {
+    final node = FocusScope.of(context);
     return LRFrame(Stack(
       children: [
         Column(
@@ -80,7 +81,7 @@ class _RegisterState extends State<Register> {
                                 return 'Please fill this field';
                               }
                               return null;
-                            },),
+                            },onEditingComplete: () => node.nextFocus()),
                           ),
                           Padding(
                             padding: const EdgeInsets.only(
@@ -90,7 +91,7 @@ class _RegisterState extends State<Register> {
                                 return 'Please fill this field';
                               }
                               return null;
-                            },),
+                            },onEditingComplete: () => node.nextFocus()),
                           ),
                           Padding(
                             padding: const EdgeInsets.only(
@@ -104,7 +105,7 @@ class _RegisterState extends State<Register> {
                               }
                               else
                                 return null;
-                            },),
+                            },onFieldSubmitted:(_) => node.unfocus()),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(16.0),

@@ -1,7 +1,7 @@
 import 'package:c4d/module_auth/ui/Widgets/field.dart';
 import 'package:c4d/module_profile/service/profile/profile.service.dart';
 import 'package:flutter/material.dart';
-void editDialogUserName(context,ProfileService profileService){
+Future <void> editDialogUserName(context,ProfileService profileService)async{
   var userName = TextEditingController();
   var alert = AlertDialog(
     shape:RoundedRectangleBorder(
@@ -31,7 +31,7 @@ void editDialogUserName(context,ProfileService profileService){
       ),),onPressed: ()=>Navigator.of(context).pop(),),
     ],
   );
-  showDialog(context: context,builder: (_){
+  await showDialog(context: context,builder: (_){
     return alert;
   });
 }
